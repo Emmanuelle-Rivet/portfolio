@@ -360,17 +360,17 @@ footer {
   }
 
    .slide {
-    height: 60vh; /* 👈 TOUTES LES CARTES même hauteur */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 42vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
   }
 
  .slide img,
 .slide video {
   height: 100%;
   width: auto;
-  max-width: 100%;
+  max-width: none;
   object-fit: contain;
 }
 .slide video {
