@@ -141,16 +141,17 @@ html {
   scrollbar-color: #111 transparent;
 }
 
-.slide {
-  flex-shrink: 0;
+ .slide {
+  height: 42vh; /* hauteur commune à toutes */
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .slide img,
 .slide video {
-  height: min(60vh, 500px);
-  width: auto;
+  height: 100%;   /* remplit la hauteur de la carte */
+  width: auto;    /* largeur calculée automatiquement */
   object-fit: contain;
   display: block;
   transition: transform 0.3s ease;
