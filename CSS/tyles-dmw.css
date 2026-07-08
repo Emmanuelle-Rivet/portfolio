@@ -328,16 +328,15 @@ footer {
     transform: none !important; /* 👈 désactive ton JS */
   }
  .slide {
-  height: auto;
+  height: 42vh; /* hauteur commune à toutes */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .slide img {
-  height: 45vh; /* ajuste ici */
-  width: auto;
-  max-width: 85vw;
+  height: 100%;   /* remplit la hauteur de la carte */
+  width: auto;    /* largeur calculée automatiquement */
   object-fit: contain;
 }
 
