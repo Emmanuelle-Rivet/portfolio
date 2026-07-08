@@ -274,7 +274,7 @@ html {
 }
 
 @media (max-width: 768px) {
-
+ header { padding: 16px 20px; }
   /* HEADER / TYPO */
   .hero-title {
     font-size: 36px;
@@ -308,14 +308,18 @@ html {
   /* SECTIONS ordre swipe */
   .section:nth-child(1) {
     order: 1; /* études */
+    padding: 16px 20px; /* 👈 garde marge gauche + droite */
   }
 
   .section:nth-child(2) {
     order: 2; /* expériences */
+      padding: 16px 20px; /* 👈 garde marge gauche + droite */
   }
 
   .section:nth-child(3) {
     order: 3; /* skills */
+      padding: 16px 20px; /* 👈 garde marge gauche + droite */
+
   }
 
   /* CONTACT */
