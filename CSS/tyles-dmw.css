@@ -327,20 +327,19 @@ footer {
   .track {
     transform: none !important; /* 👈 désactive ton JS */
   }
+ .slide {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-   .slide {
-    height: 60vh; /* 👈 TOUTES LES CARTES même hauteur */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .slide img {
-    height: 100%;      /* 👈 remplit la hauteur */
-    width: auto;       /* 👈 garde le ratio */
-    max-width: 100%;
-    object-fit: contain;
-  }
+.slide img {
+  height: 45vh; /* ajuste ici */
+  width: auto;
+  max-width: 85vw;
+  object-fit: contain;
+}
 
 }
   .track {
